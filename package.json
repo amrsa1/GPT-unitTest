@@ -1,0 +1,22 @@
+{
+  "name": "alphaproj",
+  "version": "1.0.0",
+  "description": "Auto generate unit test using GPT",
+  "main": "index.js",
+  "scripts": {
+    "writeTest": "node src/ex.js",
+    "test": "mocha src/unitTestSuie.js"
+  },
+  "keywords": [
+    "chatGPT",
+    "Unit test",
+    "mocha",
+    "AI"
+  ],
+  "author": "amrsa",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^10.2.0",
+    "openai": "^3.2.1"
+  }
+}
