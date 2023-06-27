@@ -2,9 +2,10 @@
   "name": "alphaproj",
   "version": "1.0.0",
   "description": "Auto generate unit test using GPT",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "writeTest": "node src/ex.js",
+    "writeTest": "npx ts-node src/ex",
     "test": "mocha src/unitTestSuie.js"
   },
   "keywords": [
@@ -16,7 +17,16 @@
   "author": "amrsa",
   "license": "ISC",
   "dependencies": {
+    "chai": "^4.3.7",
+    "gpt-3-encoder": "^1.1.4",
     "mocha": "^10.2.0",
-    "openai": "^3.2.1"
+    "openai": "^3.2.1",
+    "ora": "^6.3.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.4",
+    "@types/mocha": "^10.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
   }
 }

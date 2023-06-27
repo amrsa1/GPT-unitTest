@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "target": "es2020",
+        "strict": true,
+        "module": "esnext",
+        "sourceMap": true,
+        "resolveJsonModule": true,
+        "moduleResolution": "node",
+        "allowJs": true,
+        "esModuleInterop": true
+    },
+    "ts-node": {
+        "esm": true,
+        "experimentalSpecifierResolution": "node"
+    },
+    "include": [
+        "src/**/*"
+    ]
+}
